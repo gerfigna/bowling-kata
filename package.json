@@ -1,0 +1,26 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "description": "Bowling game kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles",
+    "test:watch": "jest --forceExit --watchAll",
+    "test:coverage": "jest --forceExit --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.5",
+    "ts-node": "^10.9.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
